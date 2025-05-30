@@ -1,0 +1,14 @@
+timestamp,System B Field,System A Field,Mapping Method,AI Score,Status,User Decision
+2025-05-30T01:10:54.888870,cust_id,customer_id,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:54.888884,full_name,name,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:54.888888,contact_email,email,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:54.888892,signup_date,registration_date,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:54.888896,mobile_number,phone,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:54.888899,shipping_address,billing_address,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:56.179734,credit_score,No Match,AI,0.3518532737695652,❌ No Match,Reject
+2025-05-30T01:10:56.179772,rewards_earned,loyalty_points,Manual,-,✅ Strong Match (Manual),Approve
+2025-05-30T01:10:56.641362,membership_status,No Match,AI,0.3832148432294118,❌ No Match,Reject
+2025-05-30T01:10:57.004853,preferred_contact_method,No Match,AI,0.5149209348999999,❌ No Match,Reject
+2025-05-30T01:10:57.004912,No Match,preferred_language,None,-,❌ No Match,Reject
+2025-05-30T01:10:57.004924,No Match,account_balance,None,-,❌ No Match,Reject
+2025-05-30T01:10:57.004931,No Match,subscription_type,None,-,❌ No Match,Reject

@@ -1,0 +1,51 @@
+customer_id,name,email,registration_date,phone,billing_address,loyalty_points,preferred_language,account_balance,subscription_type,credit_score,membership_status,No Match,preferred_contact_method
+A000,Alexander Merritt,bryan33@example.net,13/09/2006,631-542-8955x9642,"109 Chandler Loaf, Thompsonville, ND 65283",146,Hindi,1059.78,Standard,437,Free,,Email
+A001,Mr. Kenneth Love,tom39@example.net,15/08/2001,+1-833-700-9734x04071,"440 Ortiz Pass, North Kevin, NH 31803",361,English,8705.68,Standard,789,Premium,,Phone
+A002,Jason Mills,ibrown@example.org,11/06/1988,587.372.2349x30460,"559 Mark Fords Apt. 675, Haleyside, MI 78017",482,Spanish,4187.24,Premium,846,Standard,,Phone
+A003,Shirley Carter,reyesaaron@example.net,14/09/2002,727-373-7971x438,"18698 Ellis Run Suite 560, East Arianatown, NE 51343",144,Hindi,4820.68,Premium,530,Standard,,Phone
+A004,Andrew Foley,mary39@example.net,09/04/2016,828.554.4713x880,"849 Steven Greens Apt. 148, Lisaside, ME 43300",159,Hindi,9194.17,Premium,776,Free,,Email
+A005,Edward Lawson,deannamoore@example.org,28/06/1989,+1-934-327-2938x324,"283 Dawn Throughway, North Lisaport, GU 63885",243,English,2777.6,Free,592,Standard,,SMS
+A006,Dean Tran,paul93@example.net,05/12/1970,+1-564-424-9710,"1965 Ross Cliff Apt. 796, Smithtown, MT 86512",491,Hindi,9709.78,Premium,767,Free,,Phone
+A007,Melissa Newman,bradley97@example.com,14/04/1983,001-620-389-3947x0771,"166 Alexander Turnpike, Foxshire, MD 43352",264,Spanish,8112.19,Premium,460,Standard,,Email
+A008,Anna Scott,wrodriguez@example.net,17/12/2012,+1-776-690-4929,"434 Cynthia Pike Apt. 277, New David, SC 67950",408,Hindi,4514.3,Standard,836,Premium,,Phone
+A009,James Lawson,vgarza@example.net,24/10/2010,622.438.2462x1019,"USNV Beard, FPO AA 16386",445,Spanish,8564.78,Free,410,Premium,,Email
+A010,Linda Alvarez MD,patrickscott@example.com,27/04/1976,417-968-9908x36753,"09090 Moyer Motorway Apt. 380, West Keithhaven, DE 67098",435,English,7976.86,Premium,821,Free,,SMS
+A011,Priscilla Cochran,chavezdonald@example.org,01/11/2024,(400)342-4026,"29294 Benjamin Valleys Apt. 056, Prattshire, ND 22509",100,Hindi,5778.09,Free,356,Premium,,SMS
+A012,Laura Carpenter,kimberlyjohnson@example.org,23/10/2004,001-449-565-9786,"Unit 1934 Box 7645, DPO AE 41433",59,Spanish,4989.75,Premium,355,Premium,,Phone
+A013,Brandon Carlson,nicholasmarshall@example.com,28/05/2020,(322)996-4377,"155 Austin Ramp Apt. 109, North Kennethhaven, ME 96343",1,Hindi,7951.53,Free,670,Premium,,Email
+A014,Holly Reyes,michelle07@example.org,26/05/1989,+1-767-290-2693x46508,"55729 Heather Overpass Apt. 112, Cainfurt, WA 64607",306,Hindi,9462.3,Free,772,Standard,,SMS
+A015,Bryan Ramirez,javierhernandez@example.org,03/05/1975,386.308.4414,"913 Maddox Square, Thomasmouth, AR 20439",166,Hindi,8247.12,Standard,632,Free,,Phone
+A016,Michael Mcgee,sarah82@example.net,23/12/2002,001-944-735-4667x180,"Unit 6715 Box 6770, DPO AE 91439",317,Spanish,7162.8,Standard,420,Premium,,Phone
+A017,Patrick Moreno,taylormichelle@example.net,05/07/1997,(400)922-5692x1429,"868 Lisa Corner, Scottbury, VT 18080",242,Spanish,5045.5,Premium,796,Free,,Email
+A018,Timothy Hernandez,amandathompson@example.org,30/10/2024,001-266-944-2982x36719,"0271 Sims Ramp Apt. 197, South Eddiehaven, AZ 20101",31,English,5874.54,Free,312,Premium,,SMS
+A019,Cassandra Cochran,sbaird@example.com,06/05/2024,(239)543-2162x742,"087 Horton Meadow, Kellyland, NY 65755",432,English,2541.46,Free,517,Premium,,Phone
+A020,Lisa Romero,peternavarro@example.com,19/07/1998,632-272-2444,"37035 Bernard Courts, New Jane, FL 89536",353,English,7660.32,Premium,334,Free,,Phone
+A021,Debra Horn,washingtongabriel@example.net,13/06/1986,254-465-7935x3347,"79445 Kerri Forest, Kathrynton, KS 43785",141,English,4337.54,Premium,477,Free,,Email
+A022,David Brandt,bgibson@example.net,27/08/1990,345-662-1922x7790,"54768 Walsh Oval Apt. 222, Lake Kevinfort, ME 86506",476,Spanish,9836.96,Premium,408,Standard,,Phone
+A023,Justin Nichols,johnvaughn@example.org,06/08/1976,001-943-895-5783x930,"70251 James Rest Suite 426, Ryanton, ID 88522",19,Spanish,9210.63,Free,382,Standard,,SMS
+A024,Jerry Petersen,benjamin70@example.org,30/01/1996,646-821-1052x352,"8246 Davis Plaza Suite 941, Lake Justinbury, FM 45085",362,Hindi,4892.7,Standard,752,Standard,,Email
+A025,Jonathan Alexander,orozcomartin@example.net,11/12/1971,6809854877,"81557 Jeffrey Hill Apt. 404, Nicoleside, SD 17047",148,Hindi,8279.28,Standard,779,Standard,,SMS
+A026,William Moore,spacheco@example.org,26/02/1987,6717275580,"54304 Hampton Row Suite 850, Cherylland, AL 07104",102,Spanish,9615.93,Free,614,Standard,,Email
+A027,Vincent Sanchez,navarrokristine@example.org,29/11/1989,001-655-878-8814x4315,"041 Michelle Brook, West Markhaven, TN 52889",252,English,3639.33,Standard,529,Premium,,Email
+A028,Thomas Clark,mgonzales@example.net,28/01/2002,+1-553-753-1774x05485,"PSC 8918, Box 4494, APO AE 13117",93,Spanish,8157.85,Free,726,Free,,Email
+A029,Christine Phillips,kperez@example.org,02/03/1982,+1-486-562-4868x3119,"871 Howell Plains, Jeremyview, DE 68805",360,Hindi,4691.68,Premium,742,Premium,,SMS
+A030,Denise Nelson,benjamin69@example.net,12/06/1998,7518159500,"04316 Tyler Streets Apt. 697, East Ashleyville, NC 57165",475,English,8804.97,Free,726,Standard,,Email
+A031,Veronica Flores,jordansmith@example.org,25/08/1986,001-935-763-6545,"PSC 7959, Box 1959, APO AE 54858",108,English,2996.54,Premium,717,Premium,,Email
+A032,Jerry Sharp,nreynolds@example.org,11/11/2018,787.752.0010x322,"48283 Taylor Cliffs Apt. 944, Port Raymond, OH 62471",54,English,5290.84,Free,798,Standard,,Phone
+A033,Jack Gonzalez,ubenton@example.org,30/10/2023,595.662.4542x7745,"33554 Conway Garden Apt. 862, South Emilyside, OR 25856",160,English,5022.97,Free,542,Standard,,Email
+A034,Julia Robertson,rwang@example.net,09/12/1985,6329027482,"089 Diana Lake, West Williamstad, NV 02254",120,Spanish,7761.66,Premium,759,Standard,,SMS
+A035,Richard Orozco,mwalker@example.net,12/12/1999,215.276.1335,"00649 Hernandez Heights Apt. 540, Hallport, VA 74709",74,Hindi,6752.77,Free,837,Standard,,Phone
+A036,Monique Brown,kdixon@example.net,31/08/2012,001-429-771-9932x3191,"34553 Gutierrez Spur, Averyfurt, MS 19105",156,Spanish,5296.35,Standard,449,Free,,SMS
+A037,Amy Parker,faulknermichael@example.net,01/12/2017,(992)453-3092,"379 Campos Mountains, West Grant, FM 78199",52,Spanish,9990.58,Standard,668,Premium,,Email
+A038,Steven Smith,vjones@example.net,22/07/2000,001-604-590-2989x8390,"67836 Deleon Path Suite 574, Maryfurt, NH 36823",324,Spanish,5773.57,Premium,493,Premium,,Email
+A039,Rebekah Fisher,juanharris@example.org,24/05/2017,9334654793,"658 Timothy Creek Suite 958, Brennanchester, UT 04703",254,English,3218.42,Standard,561,Standard,,Phone
+A040,Rebecca Perkins,khankenneth@example.net,26/04/1977,+1-230-910-5698x6973,"123 Juarez Isle, Nguyenstad, DE 00709",376,Hindi,5927.37,Standard,515,Free,,Email
+A041,Pamela Martin,jennifermartinez@example.net,14/06/2010,(274)744-4789x9794,"598 Moreno Field Suite 629, Jonathanport, GA 32987",76,Spanish,5085.48,Premium,835,Premium,,Phone
+A042,Terry Harvey,stephenpatterson@example.com,09/06/1971,+1-772-854-7137x82959,"122 Jessica Lights, North Benjaminchester, KS 50389",2,Spanish,3776.87,Premium,774,Standard,,SMS
+A043,John Torres,pierceann@example.net,05/05/1991,929.783.0128x3443,"912 Sullivan Garden Suite 731, Campbellfurt, OR 67928",415,Spanish,5423.41,Standard,465,Free,,Phone
+A044,Whitney Dawson,nhunt@example.net,23/10/1980,8845731211,"097 Wright Garden Suite 774, Andersonberg, OK 13075",11,Spanish,1554.97,Premium,503,Standard,,Email
+A045,Paula Williams,weaverpeter@example.net,08/03/1973,+1-990-717-5763,"0033 Dennis Drives, East Nicholeland, VT 08533",20,English,4157.11,Standard,506,Premium,,Email
+A046,Traci Ramos,irobinson@example.org,05/01/2017,001-382-209-8432x78652,"Unit 4657 Box 4142, DPO AE 72159",472,Hindi,2221.46,Free,845,Standard,,Email
+A047,Jason Allen,vbooth@example.net,09/07/2001,+1-471-577-6040x621,"7239 Franklin Port Suite 748, Kristineton, IL 60304",410,Hindi,4157.93,Premium,741,Standard,,SMS
+A048,Kenneth Mcmillan,thompsonrandall@example.com,21/03/2018,001-695-659-4328,"0216 John Mission, Cervantesview, CO 60805",308,Spanish,8631.47,Standard,434,Free,,Phone
+A049,Jennifer Gutierrez,stephanie80@example.com,27/02/1987,001-789-407-3409x65895,"Unit 2769 Box 1697, DPO AP 23701",370,English,6833.87,Premium,613,Free,,Email
