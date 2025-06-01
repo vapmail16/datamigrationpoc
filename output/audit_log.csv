@@ -1,0 +1,16 @@
+timestamp,Target Field,Source Field,Mapping Method,AI Score,Status,User Decision
+2025-06-01T09:15:41.620502,cust_id,customer_id,AI,0.8199602157999999,🟡 Moderate Match,Reject
+2025-06-01T09:15:41.928165,full_name,No Match,AI,0.5453489171692307,❌ No Match,Reject
+2025-06-01T09:15:42.275712,contact_email,email,AI,0.8510320426,✅ Strong Match,Approve
+2025-06-01T09:15:42.565827,signup_date,No Match,AI,0.6937378417235294,❌ No Match,Reject
+2025-06-01T09:15:42.851428,mobile_number,phone,AI,0.8167482703,🟡 Moderate Match,Approve
+2025-06-01T09:15:43.128028,shipping_address,account_balance,AI,0.7838494389999999,🟡 Moderate Match,Reject
+2025-06-01T09:15:43.778469,credit_score,account_balance,AI,0.777431476,🟡 Moderate Match,Reject
+2025-06-01T09:15:44.085534,rewards_earned,account_balance,AI,0.7735763281,🟡 Moderate Match,Reject
+2025-06-01T09:15:44.456111,membership_status,subscription_type,AI,0.7313723812235293,🟡 Moderate Match,Reject
+2025-06-01T09:15:44.736046,preferred_contact_method,email,AI,0.7938303498999999,🟡 Moderate Match,Reject
+2025-06-01T09:15:44.736066,No Match,billing_address,None,-,❌ No Match,Reject
+2025-06-01T09:15:44.736069,No Match,registration_date,None,-,❌ No Match,Reject
+2025-06-01T09:15:44.736072,No Match,loyalty_points,None,-,❌ No Match,Reject
+2025-06-01T09:15:44.736074,No Match,preferred_language,None,-,❌ No Match,Reject
+2025-06-01T09:15:44.736076,No Match,name,None,-,❌ No Match,Reject

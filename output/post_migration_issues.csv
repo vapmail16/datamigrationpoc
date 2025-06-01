@@ -1,0 +1,97 @@
+System,Row,Field,Issue
+Merged Output,1,No Match,Missing value for 'No Match'
+Merged Output,2,No Match,Missing value for 'No Match'
+Merged Output,3,No Match,Missing value for 'No Match'
+Merged Output,4,No Match,Missing value for 'No Match'
+Merged Output,4,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,5,No Match,Missing value for 'No Match'
+Merged Output,6,No Match,Missing value for 'No Match'
+Merged Output,6,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,6,account_balance,"Type mismatch in 'account_balance' (expected amount, got text)"
+Merged Output,7,No Match,Missing value for 'No Match'
+Merged Output,8,No Match,Missing value for 'No Match'
+Merged Output,8,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,9,No Match,Missing value for 'No Match'
+Merged Output,9,account_balance,"Type mismatch in 'account_balance' (expected amount, got text)"
+Merged Output,10,No Match,Missing value for 'No Match'
+Merged Output,11,No Match,Missing value for 'No Match'
+Merged Output,11,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,12,No Match,Missing value for 'No Match'
+Merged Output,12,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,13,No Match,Missing value for 'No Match'
+Merged Output,13,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,14,No Match,Missing value for 'No Match'
+Merged Output,14,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,15,No Match,Missing value for 'No Match'
+Merged Output,15,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,15,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,15,account_balance,"Type mismatch in 'account_balance' (expected amount, got text)"
+Merged Output,16,No Match,Missing value for 'No Match'
+Merged Output,16,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,17,No Match,Missing value for 'No Match'
+Merged Output,17,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,17,account_balance,"Type mismatch in 'account_balance' (expected amount, got text)"
+Merged Output,18,No Match,Missing value for 'No Match'
+Merged Output,18,account_balance,"Type mismatch in 'account_balance' (expected amount, got text)"
+Merged Output,19,No Match,Missing value for 'No Match'
+Merged Output,19,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,19,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,19,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,20,No Match,Missing value for 'No Match'
+Merged Output,21,No Match,Missing value for 'No Match'
+Merged Output,21,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,22,No Match,Missing value for 'No Match'
+Merged Output,22,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,23,No Match,Missing value for 'No Match'
+Merged Output,24,No Match,Missing value for 'No Match'
+Merged Output,24,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,24,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,25,No Match,Missing value for 'No Match'
+Merged Output,25,account_balance,"Type mismatch in 'account_balance' (expected amount, got text)"
+Merged Output,26,No Match,Missing value for 'No Match'
+Merged Output,26,phone,"Type mismatch in 'phone' (expected text, got phone)"
+Merged Output,26,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,26,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,27,No Match,Missing value for 'No Match'
+Merged Output,27,phone,"Type mismatch in 'phone' (expected text, got phone)"
+Merged Output,28,No Match,Missing value for 'No Match'
+Merged Output,29,No Match,Missing value for 'No Match'
+Merged Output,29,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,30,No Match,Missing value for 'No Match'
+Merged Output,30,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,31,No Match,Missing value for 'No Match'
+Merged Output,31,phone,"Type mismatch in 'phone' (expected text, got phone)"
+Merged Output,32,No Match,Missing value for 'No Match'
+Merged Output,33,No Match,Missing value for 'No Match'
+Merged Output,33,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,34,No Match,Missing value for 'No Match'
+Merged Output,34,rewards_earned,"Type mismatch in 'rewards_earned' (expected id, got amount)"
+Merged Output,35,No Match,Missing value for 'No Match'
+Merged Output,35,phone,"Type mismatch in 'phone' (expected text, got phone)"
+Merged Output,35,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,36,No Match,Missing value for 'No Match'
+Merged Output,36,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,37,No Match,Missing value for 'No Match'
+Merged Output,37,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,38,No Match,Missing value for 'No Match'
+Merged Output,38,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,39,No Match,Missing value for 'No Match'
+Merged Output,40,No Match,Missing value for 'No Match'
+Merged Output,40,phone,"Type mismatch in 'phone' (expected text, got phone)"
+Merged Output,41,No Match,Missing value for 'No Match'
+Merged Output,42,No Match,Missing value for 'No Match'
+Merged Output,42,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,43,No Match,Missing value for 'No Match'
+Merged Output,43,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,43,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,44,No Match,Missing value for 'No Match'
+Merged Output,45,No Match,Missing value for 'No Match'
+Merged Output,45,phone,"Type mismatch in 'phone' (expected text, got phone)"
+Merged Output,45,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,46,No Match,Missing value for 'No Match'
+Merged Output,46,loyalty_points,"Type mismatch in 'loyalty_points' (expected id, got amount)"
+Merged Output,47,No Match,Missing value for 'No Match'
+Merged Output,48,No Match,Missing value for 'No Match'
+Merged Output,48,preferred_contact_method,"Type mismatch in 'preferred_contact_method' (expected text, got id)"
+Merged Output,49,No Match,Missing value for 'No Match'
+Merged Output,50,No Match,Missing value for 'No Match'
