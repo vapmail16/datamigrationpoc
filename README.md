@@ -8,10 +8,11 @@ This project is an AI-powered data migration and field mapping tool designed to 
 - **AI-Powered Field Mapping:** Uses OpenAI and Pinecone to suggest field mappings from any source system to a target schema.
 - **Manual Mapping & Synonym Support:** Supports manual overrides and synonym dictionaries for robust matching.
 - **Human-in-the-Loop Review:** Approve or reject mapping suggestions before merging.
-- **Pre/Post-Migration Validation:** Checks for missing values, type mismatches, and anomalies before and after migration.
+- **Pre/Post-Migration Validation:** Checks for missing values, type mismatches, and anomalies before and after migration. Sample data now includes random data type errors for validation testing.
 - **Audit Trail:** Logs all mapping decisions (AI/manual/user) for traceability and compliance.
 - **Data Preview:** Preview merged output before downloading.
 - **Professional UI:** Streamlit app with clear, persistent sections and downloadable reports.
+- **Transformation Suggestions:** AI-assisted and manual code for field format conversion, with default logic for date fields to match the target schema format.
 
 ## Folder Structure
 ```
@@ -21,9 +22,8 @@ project-root/
 ├── ingest_metadata_to_pinecone.py # Ingests target schema metadata into Pinecone
 ├── define_target_schema.py        # Script to define/edit the target schema
 ├── check_field_matches.py         # CLI field matching tool
-├── generate_sample_data.py        # Sample data generator
+├── generate_sample_data.py        # Sample data generator (with random errors for testing)
 ├── system_a_data.json             # Example input data (Source System A)
-├── system_b_data.json             # Example input data (Source System B)
 ├── schemas/
 │   └── target_schema.json         # The target schema definition
 ├── output/                        # All generated reports and outputs
@@ -41,8 +41,8 @@ project-root/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/vapmail16/datamigrationpoc.git
-   cd datamigrationpoc
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
    ```
 
 2. **Install Dependencies**
@@ -69,7 +69,7 @@ project-root/
      python ingest_metadata_to_pinecone.py
      ```
 
-5. **(Optional) Generate Sample Data**
+5. **Generate Sample Data (with random errors for validation testing)**
    ```bash
    python generate_sample_data.py
    ```
@@ -81,8 +81,9 @@ project-root/
 streamlit run match_and_merge_streamlit.py
 ```
 
-- **Section 1:** Run pre-migration validation and download the issues report if needed.
+- **Section 1:** Run pre-migration validation and download the issues report if needed. You will see random data type errors for testing.
 - **Section 2:** Match source system fields to the target schema, review/approve/reject suggestions, and download the audit log.
+- **Section 2.5:** Review and edit AI-assisted or manual transformation code for each mapped field. For date fields, a default transformation is provided to match the target schema format.
 - **Section 3:** Generate the final merged output, review post-migration validation, preview the data, and download the final reports.
 
 ### Run the CLI Field Matcher (Optional)
@@ -97,6 +98,12 @@ All output files are saved in the `/output` directory:
 - `audit_log.csv` — All mapping decisions and user actions
 - `normalized_output.json` — Final merged data (JSON)
 - `normalized_output.csv` — Final merged data (CSV)
+
+## Troubleshooting
+- **No validation issues detected?** Your sample data may be fully valid. Run `python generate_sample_data.py` again to introduce random errors, or manually edit `system_a_data.json`.
+- **Transformation not applied?** Ensure the transformation code defines `def transform(x):` and is valid Python. For date fields, the default is provided automatically.
+- **Output format mismatch?** Check the transformation code for the relevant field and ensure the checkbox is checked.
+- **API errors?** Ensure your `.env` file is correct and you have valid API keys for OpenAI and Pinecone.
 
 ## Security Best Practices
 - **Never commit your `.env` file or API keys.** Always add `.env` to `.gitignore` before your first commit.
