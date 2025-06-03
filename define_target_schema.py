@@ -12,14 +12,15 @@ class TargetSchema:
         }
     
     def add_field(self, name: str, data_type: str, required: bool = False, 
-                 description: str = "", default_value: Optional[str] = None):
+                 description: str = "", default_value: Optional[str] = None, format: Optional[str] = None):
         """Add a field to the schema with its metadata."""
         field = {
             "name": name,
             "data_type": data_type,
             "required": required,
             "description": description,
-            "default_value": default_value
+            "default_value": default_value,
+            "format": format
         }
         self.schema["fields"].append(field)
     
@@ -91,7 +92,8 @@ def create_sample_target_schema():
         data_type="date",
         required=True,
         description="Date when the customer record was created",
-        default_value="current_timestamp"
+        default_value="current_timestamp",
+        format="%m/%d/%Y"  # US format for target schema
     )
 
     schema.add_field(
@@ -128,7 +130,8 @@ def create_sample_target_schema():
         name="last_login",
         data_type="date",
         required=False,
-        description="Timestamp of customer's last login"
+        description="Timestamp of customer's last login",
+        format="%m/%d/%Y"  # US format for target schema
     )
 
     schema.add_field(
@@ -151,6 +154,14 @@ def create_sample_target_schema():
         data_type="string",
         required=False,
         description="Additional notes or comments about the customer"
+    )
+
+    schema.add_field(
+        name="date_of_birth",
+        data_type="date",
+        required=True,
+        description="Customer's date of birth",
+        format="%d-%m-%Y"  # European format for target schema
     )
     
     return schema

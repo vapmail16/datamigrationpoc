@@ -122,13 +122,13 @@ class FieldMatcher:
         types_a = {key: self.get_data_type(samples_a[key]) for key in fields_a}
         types_b = {key: self.get_data_type(samples_b[key]) for key in fields_b}
 
-        results = []
+results = []
         matched_a = set()
         matched_b = set()
 
         for b_field in tqdm(fields_b, desc="Matching fields"):
             best_match = None
-            best_score = -1
+    best_score = -1
             best_details = {}
             best_override = False
             b_type = types_b[b_field]
@@ -147,7 +147,7 @@ class FieldMatcher:
                 matched_a.add(a_field)
                 matched_b.add(b_field)
             else:
-                for a_field in fields_a:
+    for a_field in fields_a:
                     a_type = types_a[a_field]
                     # Type filtering: only allow matches between compatible types
                     if b_type in self.strict_types and a_type in self.strict_types and b_type != a_type:
@@ -168,9 +168,9 @@ class FieldMatcher:
                         # Rule-based boost: if field_sim >= 0.85 and type_sim == 1.0, boost score
                         if field_sim >= 0.85 and type_sim == 1.0:
                             score += 0.1
-                    if score > best_score:
-                        best_score = score
-                        best_match = a_field
+        if score > best_score:
+            best_score = score
+            best_match = a_field
                         best_details = {
                             "field_similarity": field_sim,
                             "sample_similarity": sample_sim,
@@ -186,25 +186,25 @@ class FieldMatcher:
                     }
                     status = "❌ No Match"
                 else:
-                    status = (
-                        "✅ Strong Match" if best_score >= 0.85 else
-                        "🟡 Moderate Match" if best_score >= 0.7 else
-                        "❌ Weak/Incorrect"
-                    )
+    status = (
+        "✅ Strong Match" if best_score >= 0.85 else
+        "🟡 Moderate Match" if best_score >= 0.7 else
+        "❌ Weak/Incorrect"
+    )
                     matched_a.add(best_match)
                     matched_b.add(b_field)
 
-            results.append({
-                "System B Field": b_field,
-                "System A Field": best_match,
-                "B Sample": samples_b[b_field],
+    results.append({
+        "System B Field": b_field,
+        "System A Field": best_match,
+        "B Sample": samples_b[b_field],
                 "A Sample": samples_a[best_match] if best_match in samples_a else '-',
                 "Field Similarity": best_details["field_similarity"] if best_details["field_similarity"] == '-' else round(best_details["field_similarity"], 3),
                 "Sample Similarity": best_details["sample_similarity"] if best_details["sample_similarity"] == '-' else round(best_details["sample_similarity"], 3),
                 "Type Similarity": best_details["type_similarity"] if best_details["type_similarity"] == '-' else round(best_details["type_similarity"], 3),
                 "Combined Score": '-' if best_match == 'No Match' else round(best_score, 3),
-                "Status": status
-            })
+        "Status": status
+    })
 
         # Add unmatched System A fields
         unmatched_a = set(fields_a) - matched_a
